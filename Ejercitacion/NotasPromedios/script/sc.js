@@ -3,7 +3,7 @@ let notas = new Array;
 let min = 0;
 let max = 0;
 let prom = 0;
-let i;
+
 
 function cargarNotas(){
     notas[0] = parseInt(document.getElementById("nota1").value);
@@ -15,12 +15,12 @@ function cargarNotas(){
 }
 
 function calcular(){
-    i = 1;
+   
     min = notas[0];
     max = notas[0];
     prom = notas[0];
 
-    for(i ; i < notas.length; i++){
+    for(let i = 1 ; i < notas.length; i++){
          if (notas[i] < min ){
             min = notas[i];
          }
