@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ejercicio realizado por Enzo Valverde -->
+    <title>Ejercicio PromedioNotas</title>
+
+</head>
+<body>
+    
+    <h3>Ingrese Notas para sacar un promedio</h3>
+    <h4>Nota 1</h4>
+    <input type="number" min="0" max="10" id="nota1" value="0">
+    <h4>Nota 2</h4>
+    <input type="number" min="0" max="10" id="nota2" value="0">
+    <h4>Nota 3</h4>
+    <input type="number" min="0" max="10" id="nota3" value="0">
+    <h4>Nota 4</h4>
+    <input type="number" min="0" max="10" id="nota4" value="0">
+    <br>
+    <br>
+    <button onclick="cargarNotas()">Cargar notas</button>
+
+    <button onclick="calcular()">Mostrar Min -  Max  -  Promedio</button>
+
+    <script src="script/sc.js"></script>
+    <h4 id="min"></h4>
+    <h4 id="max"></h4>
+    <h4 id="prom"></h4>
+
+</body>
+</html>
